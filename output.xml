@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1 (Python 3.9.4 on win32)" generated="20210429 11:31:49.732" rpa="false" schemaversion="2">
+<suite id="s1" name="Radiobuttons" source="C:\Users\Neetesh\PycharmProjects\studentRobotSelenium\TestCases\radiobuttons.robot">
+<test id="s1-t1" name="Testing Radio buttons and Check boxes">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210429 11:31:50.136" level="INFO">Opening browser 'firefox' to base url 'http://www.practiceselenium.com/practice-form.html'.</msg>
+<msg timestamp="20210429 11:31:50.138" level="INFO">Firefox driver log is always forced to to: C:\Users\Neetesh\PycharmProjects\studentRobotSelenium\geckodriver-8.log</msg>
+<status status="PASS" starttime="20210429 11:31:50.135" endtime="20210429 11:32:09.089"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>1seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20210429 11:32:09.089" endtime="20210429 11:32:09.090"/>
+</kw>
+<kw name="Radio button test">
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>sex</arg>
+<arg>Female</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20210429 11:32:09.091" level="INFO">Selecting 'Female' from radio button 'sex'.</msg>
+<status status="PASS" starttime="20210429 11:32:09.091" endtime="20210429 11:32:12.402"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>exp</arg>
+<arg>5</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20210429 11:32:12.403" level="INFO">Selecting '5' from radio button 'exp'.</msg>
+<status status="PASS" starttime="20210429 11:32:12.402" endtime="20210429 11:32:15.654"/>
+</kw>
+<status status="PASS" starttime="20210429 11:32:09.090" endtime="20210429 11:32:15.654"/>
+</kw>
+<kw name="CheckboxTest">
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>BlackTea</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20210429 11:32:15.656" level="INFO">Selecting checkbox 'BlackTea'.</msg>
+<status status="PASS" starttime="20210429 11:32:15.655" endtime="20210429 11:32:19.935"/>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<arg>RedTea</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<msg timestamp="20210429 11:32:19.935" level="INFO">Selecting checkbox 'RedTea'.</msg>
+<status status="PASS" starttime="20210429 11:32:19.935" endtime="20210429 11:32:24.207"/>
+</kw>
+<kw name="Unselect Checkbox" library="SeleniumLibrary">
+<arg>BlackTea</arg>
+<doc>Removes the selection of checkbox identified by ``locator``.</doc>
+<msg timestamp="20210429 11:32:24.208" level="INFO">Unselecting checkbox 'BlackTea'.</msg>
+<status status="PASS" starttime="20210429 11:32:24.207" endtime="20210429 11:32:28.454"/>
+</kw>
+<status status="PASS" starttime="20210429 11:32:15.655" endtime="20210429 11:32:28.454"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20210429 11:32:28.455" endtime="20210429 11:32:30.734"/>
+</kw>
+<status status="PASS" starttime="20210429 11:31:50.134" endtime="20210429 11:32:30.734"/>
+</test>
+<status status="PASS" starttime="20210429 11:31:49.735" endtime="20210429 11:32:30.737"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Radiobuttons">Radiobuttons</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
